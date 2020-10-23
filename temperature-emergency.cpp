@@ -62,6 +62,11 @@ int main()
         }
         curl_global_cleanup();
     }
+    else
+    {
+        std::cout << "Nothing to do, the temperature is" << degreesC;
+    }
+    
 
     return 0;
 }
