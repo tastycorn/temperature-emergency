@@ -23,7 +23,7 @@ int main()
     // descriptionContent.append("degrees");
     descriptionContent.append("C!+!!!!");
 
-    if (degreesC<=5)
+    if (degreesC<=25)
     {
 
         CURL *curl;
