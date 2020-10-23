@@ -17,11 +17,11 @@ int main()
     
     double degreesC = rawTemp/1000.0;
 
-    std::string descriptionContent = "%0A!%0A!%0A!%0A!%0ATHE+CURRENT+TEMPERATURE+IS+";
+    std::string descriptionContent = "%0A!!!!+THE+CURRENT+TEMPERATURE+IS+";
     descriptionContent.append(std::to_string(degreesC),0,4);
     descriptionContent.append("\u00B0");
     // descriptionContent.append("degrees");
-    descriptionContent.append("C!%0A!%0A!%0A!%0A!");
+    descriptionContent.append("C!+!!!!");
 
     if (degreesC<=25)
     {
